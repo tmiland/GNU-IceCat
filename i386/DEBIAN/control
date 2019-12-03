@@ -1,5 +1,5 @@
-Package: teamspeak3-client
-Version: 3.3.2
+Package: GNU IceCat
+Version: 60.7.0
 Architecture: i386
 Maintainer: Tommy Miland (tmiland) <kontakt@tmiland.com>
 Installed-Size:
@@ -7,14 +7,7 @@ Depends:
 Section: non-free/net
 Priority: optional
 Homepage: https://github.com/tmiland/TeamSpeak3-Client
-Description: VoIP chat for online gaming
- TeamSpeak is a quality, scalable application which enables people to speak
- with one another over the Internet. TeamSpeak consists of both client and
- server software. The server acts as a host to multiple client connections,
- capable of handling literally thousands of simultaneous users. This results
- in an Internet based teleconferencing solution that works in a variety of
- applications such as team mates speaking with one another while playing
- their favorite online game, small businesses cutting costs on long distance
- charges, or for personal communication with friends and family.
+Description: GNU IceCat is the GNU version of the Firefox browser
+ GNUzilla is the GNU version of the Mozilla suite, and GNU IceCat is the GNU version of the Firefox browser. Its main advantage is an ethical one: it is entirely free software. While the Firefox source code from the Mozilla project is free software, they distribute and recommend nonfree software as plug-ins and addons. Also their trademark license imposes requirements for the distribution of modified versions that make it inconvenient to exercise freedom 3.
  .
- This package contains the graphical TeamSpeak3 client.
+ This package contains the GNU IceCat browser.

@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Teamspeak 3
-Exec=/usr/bin/teamspeak3-client
-Terminal=false
-Icon=/opt/TeamSpeak3-Client-linux_x86/styles/default/logo-128x128.png
-Categories=Network
-Comment=Teamspeak 3 Client

@@ -1,5 +1,5 @@
 #!/bin/bash
-DIR="TeamSpeak3-Client-linux_amd64"
-rm -f /usr/bin/teamspeak3-client
+DIR="icecat"
+rm -f /usr/bin/icecat
 update-menus
-rm -rf /opt/$DIR
+rm -rf /usr/lib/$DIR

@@ -6,4 +6,4 @@ else
     arch="x86"
 fi
 
-dpkg-deb --build $arch teamspeak3-client_$arch.deb
+dpkg-deb --build $arch gnu-icecat_$arch.deb

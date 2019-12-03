@@ -1,5 +1,5 @@
 #!/bin/bash
-DIR="TeamSpeak3-Client-linux_x86"
+DIR="icecat"
 # Add link in /usr/bin 
-ln -s /opt/$DIR/ts3client_runscript.sh /usr/bin/teamspeak3-client
+ln -s /usr/lib/$DIR/icecat /usr/bin/icecat
 update-menus

@@ -1,7 +1,8 @@
 #!/bin/bash
-RUN="TeamSpeak3-Client-linux_x86-3.3.2.run"
+VERSION=60.7.0
+FILE=icecat-$VERSION.en-US.gnulinux-i686.tar.bz2
 cd /tmp
-wget https://files.teamspeak-services.com/releases/client/3.3.2/$RUN
-bash $RUN
-mv TeamSpeak3-Client-linux_x86 /opt/
-rm -f $RUN
+wget https://ftp.gnu.org/gnu/gnuzilla/$VERSION/$FILE
+tar -xvf icecat* -C /usr/lib/
+ln -s /usr/lib/icecat/icecat /usr/bin/icecat
+rm -f $FILE
