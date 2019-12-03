@@ -1,6 +1,6 @@
 # GNU-IceCat
 
-GNU-IceCat package for Debian based distro's.
+[GNU-IceCat](https://www.gnu.org/software/gnuzilla/) package for Debian based distro's.
 
 Tested and working on Ubuntu 19.10
 
