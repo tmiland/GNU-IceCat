@@ -1,0 +1,7 @@
+#!/bin/bash
+RUN="TeamSpeak3-Client-linux_x86-3.3.2.run"
+cd /tmp
+wget https://files.teamspeak-services.com/releases/client/3.3.2/$RUN
+bash $RUN
+mv TeamSpeak3-Client-linux_x86 /opt/
+rm -f $RUN

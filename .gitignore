@@ -1,0 +1,3 @@
+# Packages .deb
+*.deb
+package_both.sh
