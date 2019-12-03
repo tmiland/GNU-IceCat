@@ -8,6 +8,28 @@ Tested and working on Ubuntu 19.10
 
 ### Install on Debian/Ubuntu
 
+***Should work on other Debian based distro's, such as Linux Mint.***
+
+### Repository
+
+```shell
+$ echo "deb https://deb.tmiland.com/debian stable main" | sudo tee /etc/apt/sources.list.d/tmiland.list
+```
+
+```shell
+$ sudo apt-key adv --keyserver hkps://keys.openpgp.org --recv-keys A9EA5FFA30697D15
+```
+
+```shell
+$ sudo apt update
+```
+
+```shell
+$ sudo apt install gnu-icecat
+```
+
+### Manual install
+
 Make sure you have the "menu" package and git:
 
 ```shell
@@ -49,5 +71,3 @@ Uninstall the GNU IceCat browser with:
 ```
 sudo apt-get remove gnu-icecat
 ```
-
-Alternatively download deb packages here: https://github.com/tmiland/GNU-IceCat/releases
