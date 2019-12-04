@@ -33,41 +33,41 @@ $ sudo apt install gnu-icecat
 Make sure you have the "menu" package and git:
 
 ```shell
-sudo apt-get install menu && sudo apt-get install git
+$ sudo apt-get install menu && sudo apt-get install git
 ```
 
 Using git, grab the latest code for the GNU-IceCat browser package builder:
 
 ```shell
-git clone https://github.com/tmiland/GNU-IceCat.git
+$ git clone https://github.com/tmiland/GNU-IceCat.git
 ```
 
 CD into the newly cloned git folder, and execute the build tool to generate a new package.
 
 ```shell
-cd GNU-IceCat
+$ cd GNU-IceCat
 ```
 
 ```shell
-sh package.sh
+$ ./package.sh
 ```
 
 Package.sh will build a DEB package according to your Architecture Type.
 
 Use the dpkg command in terminal to install:
 
-```
-sudo dpkg -i gnu-icecat_amd64.deb
+```shell
+$ sudo dpkg -i gnu-icecat_amd64.deb
 ```
 
 or
 
-```
-sudo dpkg -i gnu-icecat_i386.deb
+```shell
+$ sudo dpkg -i gnu-icecat_i386.deb
 ```
 
 Uninstall the GNU IceCat browser with:
 
-```
-sudo apt-get remove gnu-icecat
+```shell
+$ sudo apt-get remove gnu-icecat
 ```
