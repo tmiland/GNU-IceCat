@@ -13,11 +13,11 @@ Tested and working on Ubuntu 19.10
 ### Repository
 
 ```shell
-$ echo "deb https://deb.tmiland.com/debian stable main" | sudo tee /etc/apt/sources.list.d/tmiland.list
+$ sudo curl -SsL -o /etc/apt/sources.list.d/tmiland.list https://deb.tmiland.com/debian/tmiland.list
 ```
 
 ```shell
-$ sudo apt-key adv --keyserver hkps://keys.openpgp.org --recv-keys A9EA5FFA30697D15
+$ curl -SsL https://deb.tmiland.com/debian/KEY.gpg | sudo apt-key add -
 ```
 
 ```shell
