@@ -33,7 +33,7 @@ Package ```gnu-icecat``` has changed to ```icecat```
 To reinstall:
 
 ```shell
-sudo apt remove gnu-icecat && sudo apt install icecat
+$ sudo apt remove gnu-icecat && sudo apt install icecat
 ```
 
 **For most recent version, use the repo**
