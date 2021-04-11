@@ -25,8 +25,20 @@ $ sudo apt update
 ```
 
 ```shell
-$ sudo apt install gnu-icecat
+$ sudo apt install icecat
 ```
+**Note**
+Package ```gnu-icecat``` has changed to ```icecat```
+
+To reinstall:
+
+sudo apt remove ```gnu-icecat``` && sudo apt install ```icecat```
+
+**For most recent version, use the repo**
+
+IceCat hasn't been uploaded to their repo since 2019, and the repo option will install from [icecat from home:losuler:icecat project](https://software.opensuse.org//download.html?project=home%3Alosuler%3Aicecat&package=icecat)
+
+Repo: [deb.tmiland.com](https://github.com/tmiland/deb.tmiland.com)
 
 ### Manual install
 
