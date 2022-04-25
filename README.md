@@ -17,7 +17,7 @@ $ sudo curl -SsL -o /etc/apt/sources.list.d/tmiland.list https://deb.tmiland.com
 ```
 
 ```shell
-$ curl -SsL https://deb.tmiland.com/debian/KEY.gpg | sudo apt-key add -
+$ curl -SsL https://deb.tmiland.com/debian/KEY.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/tmiland.gpg >/dev/null
 ```
 
 ```shell
