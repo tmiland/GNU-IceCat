@@ -2,6 +2,8 @@
 
 [GNU-IceCat](https://www.gnu.org/software/gnuzilla/) package for Debian based distro's.
 
+## FOR BUG REPORTS, VISIT: [bug-gnuzilla](https://lists.gnu.org/mailman/listinfo/bug-gnuzilla)
+
 Tested and working on Ubuntu 19.10
 
 ![screenshot](https://raw.githubusercontent.com/tmiland/GNU-IceCat/master/img/icecat.png)
