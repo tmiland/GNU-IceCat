@@ -1,7 +1,21 @@
 #!/bin/bash
-VERSION=60.7.0
-FILE=icecat-$VERSION.en-US.gnulinux-x86_64.tar.bz2
-cd /tmp
-wget https://ftp.gnu.org/gnu/gnuzilla/$VERSION/$FILE
+
+VERSION1=$(curl -s https://icecatbrowser.org/all_downloads.html |
+  grep -Po 'h2>\K.*(?=</h2)' |
+  head -n 1 |
+sed "s|Icecat Version:||g")
+
+VERSION2=$(curl -s https://icecatbrowser.org/all_downloads.html |
+  grep -Po 'b>\K.*(?=</b)' |
+  head -n 1 |
+  sed -n 's/[^0-9.]*\([0-9.]*\).*/\1/p' |
+  # Stript trailing .
+sed 's/.$//')
+
+FILE=icecat-"$VERSION2".en-US.linux-x86_64.tar.bz2
+cd /tmp || exit
+wget https://icecatbrowser.org/assets/icecat/"$VERSION1"/"$FILE"
+#wget https://ftp.gnu.org/gnu/gnuzilla/$VERSION/$FILE
 tar -xvf icecat* -C /usr/lib/
-rm -f $FILE
+rm -f "$FILE"
+cd - || exit
