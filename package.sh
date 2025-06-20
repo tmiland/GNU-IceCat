@@ -18,4 +18,4 @@ else
   exit 1
 fi
 
-dpkg-deb --build $arch gnu-icecat_$arch.deb
+dpkg-deb --build $arch icecat_"$VERSION"_"$arch".deb
