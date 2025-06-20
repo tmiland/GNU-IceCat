@@ -1,8 +1,0 @@
-#!/bin/bash
-VERSION=60.7.0
-FILE=icecat-$VERSION.en-US.gnulinux-i686.tar.bz2
-cd /tmp
-wget https://ftp.gnu.org/gnu/gnuzilla/$VERSION/$FILE
-tar -xvf icecat* -C /usr/lib/
-ln -s /usr/lib/icecat/icecat /usr/bin/icecat
-rm -f $FILE
