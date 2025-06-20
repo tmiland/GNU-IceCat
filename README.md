@@ -4,7 +4,8 @@
 
 ## FOR BUG REPORTS, VISIT: [bug-gnuzilla](https://lists.gnu.org/mailman/listinfo/bug-gnuzilla)
 
-Tested and working on Ubuntu 19.10
+Tested and working on Debian 12 - Version 128.9.0
+- (20.06.2025)
 
 ![screenshot](https://raw.githubusercontent.com/tmiland/GNU-IceCat/master/img/icecat.png)
 
@@ -40,7 +41,9 @@ $ sudo apt remove gnu-icecat && sudo apt install icecat
 
 **For most recent version, use the repo**
 
-IceCat hasn't been uploaded to their repo since 2019, and the repo option will install from [icecat from home:losuler:icecat project](https://software.opensuse.org//download.html?project=home%3Alosuler%3Aicecat&package=icecat)
+~~IceCat hasn't been uploaded to their repo since 2019, and the repo option will install from [icecat from home:losuler:icecat project](https://software.opensuse.org//download.html?project=home%3Alosuler%3Aicecat&package=icecat)~~
+
+IceCat will be downloaded from [icecatbrowser.org](https://icecatbrowser.org)
 
 Repo: [deb.tmiland.com](https://github.com/tmiland/deb.tmiland.com)
 
@@ -68,18 +71,12 @@ $ cd GNU-IceCat
 $ ./package.sh
 ```
 
-Package.sh will build a DEB package according to your Architecture Type.
+Package.sh will build a DEB package.
 
 Use the dpkg command in terminal to install:
 
 ```shell
 $ sudo dpkg -i gnu-icecat_amd64.deb
-```
-
-or
-
-```shell
-$ sudo dpkg -i gnu-icecat_i386.deb
 ```
 
 Uninstall the GNU IceCat browser with:
