@@ -28,15 +28,15 @@ $ sudo apt update
 ```
 
 ```shell
-$ sudo apt install icecat
+$ sudo apt install gnu-icecat
 ```
 **Note**
-Package ```gnu-icecat``` has changed to ```icecat```
+Package ```icecat``` has changed to ```gnu-icecat```
 
 To reinstall:
 
 ```shell
-$ sudo apt remove gnu-icecat && sudo apt install icecat
+$ sudo apt remove icecat && sudo apt install gnu-icecat
 ```
 
 **For most recent version, use the repo**
@@ -76,7 +76,7 @@ Package.sh will build a DEB package.
 Use the dpkg command in terminal to install:
 
 ```shell
-$ sudo dpkg -i gnu-icecat_amd64.deb
+$ sudo dpkg -i icecat_[<version>]_amd64.deb
 ```
 
 Uninstall the GNU IceCat browser with:
