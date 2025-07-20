@@ -2,3 +2,4 @@
 *.deb
 package_both.sh
 check_version.sh
+check.sh
