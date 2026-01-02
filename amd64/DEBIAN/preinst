@@ -12,7 +12,7 @@ VERSION2=$(curl -s https://icecatbrowser.org/all_downloads.html |
   # Stript trailing .
 sed 's/.$//')
 
-FILE=icecat-"$VERSION2".en-US.linux-x86_64.tar.bz2
+FILE=icecat-"$VERSION2".en-US.linux-x86_64.tar.xz
 cd /tmp || exit
 wget https://icecatbrowser.org/assets/icecat/"$VERSION1"/"$FILE"
 #wget https://ftp.gnu.org/gnu/gnuzilla/$VERSION/$FILE
