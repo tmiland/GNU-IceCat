@@ -2,4 +2,4 @@
 DIR="icecat"
 # Add link in /usr/bin 
 ln -s /usr/lib/$DIR/icecat /usr/bin/icecat
-update-menus
+update-desktop-database ~/.local/share/applications
