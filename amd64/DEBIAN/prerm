@@ -1,5 +1,5 @@
 #!/bin/bash
 DIR="icecat"
 rm -f /usr/bin/icecat
-update-desktop-database ~/.local/share/applications
+update-menus
 rm -rf /usr/lib/$DIR
